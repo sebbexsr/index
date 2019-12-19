@@ -1,0 +1,343 @@
+
+
+body {
+    max-width: 100%;
+    background: linear-gradient(180deg, rgba(145,142,142,1) 0%, rgba(255,255,255,1) 66%);
+    min-width: 300px;
+    min-height: 1080px;
+}
+
+/* Titel */
+
+#titel {
+    font-size: 8vw;
+    left: 25%;
+    position: absolute;
+    top: -40px;
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+}
+
+/* logga */
+
+#skepp {
+    max-width: 20%;
+    border: 5px solid black;
+    background-color: white;
+}
+
+/* ikoner */
+
+i {
+    position: fixed;
+    color: black;
+}
+
+#phone {
+    left: 97%;
+    top: 2%;
+}
+
+#mail {
+    left: 97%;
+    top: 7%;
+}
+
+#facebook {
+    left: 97%;
+    top: 12%;
+}
+
+i:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+/* Nightmode */
+
+#nightmode {
+    background-color: white;
+    border: 5px solid black;
+    float: right;
+    margin-right: 3%;
+    margin-top: 0.7%;
+}
+
+/* Meny */
+
+#meny li {
+    list-style-type: none;
+    border: 5px solid black;
+    width: 20.65%;
+    height: 5%;
+    text-align: center;
+    border-bottom: none;
+    margin-left: -2.1%;
+    font-size: 200%;
+    background-color: white;
+}
+
+#meny li:hover {
+    background-color: grey;
+    transition: 0.3s
+}
+
+#meny #kol {
+    border-bottom: 5px solid black;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Hoppa */
+
+#hoppa {
+    background-color: white;
+    width: 11%;
+    position: fixed;
+    border: 5px solid black;
+    bottom: 18%;
+    left: 3.5%;
+    }
+    
+    #hoppa li {
+    color: #0000EE;
+    padding: 1%;
+    }
+
+    #hoppa li:hover {
+        text-decoration: underline;
+        }
+
+
+/* Textruta */
+
+#textruta {
+    width: 70%;
+    border: 5px solid black;
+    margin-left: 25%;
+    margin-top: -9.65%;
+    background-color: #f2f2f2;
+    
+}
+
+#textruta p {
+    padding-left: 1%;
+    font-size: 120%;
+    padding-top: 0.8%
+}
+
+#textruta h2 {
+    text-align: center;
+    font-size: 200%
+}
+
+#toppen {
+    border-bottom: 5px solid black;
+    padding-bottom: 2.8%;
+    width: 100.1%;
+}
+
+#textruta h3 {
+    font-size: 130%;
+    padding-left: 1%;
+}
+
+/* Bilder */
+
+#kolonisationbild {
+    margin-left: 1%;
+    width: 40%;
+}
+
+/* Footer */
+
+footer {
+    height: 6%;
+    width: 100%;
+    margin-top: 23%;
+    background-color: #888888;
+    opacity: 0.5;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 0.8%;
+}
+
+/* Text to speech */
+
+#tts {
+    background-color: white;
+    border: 5px solid black;
+    width: 5%;
+    margin-left: 60%;
+    margin-top: -15%;
+}
+
+#tts:hover, #tts2:hover {
+    cursor: pointer;
+    background-color: gray;
+    transition: 0.3s;
+}
+
+#tts2 {
+    width: 5%;
+    background-color: white;
+    border: 5px solid black;
+}
+
+/* 1400px */
+
+@media (max-width: 1600px) {
+    #meny {
+        margin-left: -0.5%;
+    }
+
+    #textruta {
+        margin-top: -13%;
+    }
+}
+
+/* 1510px */
+
+/* @media (max-width: 1510px) {
+    #tts {
+        margin-right: 50%;
+    }
+} */
+
+/* 1200x1080 */
+
+@media (max-width: 1200px) {
+    #textruta {
+        margin-top: -15%;
+    }
+
+    #meny {
+        margin-left: -1.3%;
+    }
+}
+
+/* 800x1080 */
+
+@media (max-width: 900px) {
+    #textruta {
+        margin-top: -22%;
+    }
+
+    #meny {
+        margin-left: -2.2%;
+        font-size: 70%;
+    }
+}
+
+/* 629x1080 */
+
+@media (max-width: 629px) {
+    #meny {
+        margin-left: -4.5%;
+        font-size: 50%;
+    }
+
+    #titel {
+        margin-top: 10%;
+    }
+
+    #meny li {
+        height: 3%;
+    }
+
+    #tts {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 440px) {
+
+    #meny {
+        margin-left: -7%;
+    }
+}
+
+
+/* 400px */
+
+@media (max-width: 400px) {
+    body {
+    max-width: 400px;
+    overflow-x: hidden;
+    }
+
+    #titel {
+        font-size: 200%;
+        margin-top: 15%;
+        margin-left: 2.5%;
+    }
+
+    #meny {
+        margin-left: -8%;
+        font-size: 40%;
+    }
+
+    #textruta {
+        margin-top: -30%;
+    }
+
+    #hoppa {
+        overflow: hidden;
+        font-size: 20%;
+        margin-left: -2%;
+    }
+
+    #hoppa li {
+    margin-left: -85%;
+    }
+
+    i {
+        position: absolute;
+    }
+
+    #phone {
+        left: 9%;
+        top: 43%;
+    }
+
+    #mail {
+        left: 9%;
+        top: 50%;
+    }
+
+    #facebook {
+        left: 9%;
+        top: 57%;
+    }
+
+    #tts {
+        position: absolute;
+        top: 42.5%;
+        left: -2.5%;
+    }
+
+    #tts2 {
+        position: absolute;
+        top: 32%;
+        left: 15%;
+    }
+
+}
+
+/* 350px */
+
+@media (max-width: 350px) {
+    #meny {
+        margin-left: -10%;
+    }
+
+    #nightmode {
+        margin-top: 15%;
+    }
+}
